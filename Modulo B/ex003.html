@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body{
+            background-color: rgb(105, 105, 173);
+            color: white;
+            font: normal 20px arial, helvetica, sans-serif;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <script>
+        /*
+        O comando prompt sempre ira retornar uma string independente do valor que seja mandado para a variável. Então para somar esses valores teremos que convertelos para inteiro com o comando:         
+        'Number.parseInt()' para inteiro
+        'Number.parseFloat()' para float 
+
+        Não é nescessario o number no começo, mas se utilizar apenas o number ele descobre sozinho o tipo de dado
+        'Number()' 
+        
+        Para string os comando são:
+        String(n)
+        n.toString()
+
+        */
+        var n1 = Number(prompt('Digite um número: '))
+        var n2 = Number(prompt('Digite outro número: '))
+        var s = n1 + n2
+
+        /*
+        ${} = placeholder utilizado para fazer concatenaçao, mas só funciona dentro das crase.
+        */
+        alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+        
+        
+    </script>
+</body>
+</html>

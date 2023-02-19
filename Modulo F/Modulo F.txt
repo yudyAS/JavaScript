@@ -1,0 +1,32 @@
+Variáveis Compostas = Armazena vários valores em uma mesma estrutura.
+
+Exemplos de declaração dessa variável:
+
+var num = [5, 2, 8] - Cria um vetor com três elementos 
+
+num[3] = 6 - Adiciona o elemento '6' no vetor no indice '3'
+ficando assim (num = [5, 2, 8, 6]). Lembrando que o indice começa no '0'
+
+num.push(7) - Adiciona um elemento de forma automatica no final do vetor se precisar declarar o indice, 
+
+num.length - Atributo que mostra a quantidade de elementos dentro de um vetor
+
+num.sort() - Organiza os elementos em ordem crescente
+
+
+for(var pos = 0; pos<num.length; pos++){
+    console.log(num[pos])
+} Nesse exemplo mostraremos todos os elementos do vetor um em baixo do outro, para isso criamos uma estrutura de repetição que ira criar uma variável com valor 0, depois vai verificar se o valor da variável é menor que a quantidade de elementos no vetor se for menor ele vai somar 1 na variável, por fim mostraremos o vetor na posição da variável
+
+
+for(let pos in valores){
+    console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
+} Versão simplificada do exemplo de cima.
+
+num.indexOf(7) - Procura se dentro do vetor tem o número expeciificado, que nesse exemplo foi 7, se tiver ele ira retornar o indice desse elemento, agora se ele não encontrar ira retornar -1.
+
+
+                    Funções
+
+Funções são ações executadas assim que são chamadas ou em decorrência de algum evento.
+A maioria das funções tem os seguintes fatores uma chamada, parâmetros, uma ação e um retorno.

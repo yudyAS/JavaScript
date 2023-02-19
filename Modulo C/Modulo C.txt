@@ -1,0 +1,68 @@
+                DOM (Document Object Model)
+
+DOM = Conjunto de objetos dentro do navegador que vai dar acesso 
+aos componentes internos do seu website
+
+                    Árvore DOM
+
+Raiz = window tudo dentro do JS está dentro desse objeto, e 
+dentro dele temos outros objetos:
+
+Location = Diz qual é a localização do site
+Document = Documento atual
+History = Vai guardando de onde você veio e para onde vai
+
+    O html está dentro do Document. Podemos navegar por essa 
+arvore utilizando o JS.
+
+---------------------Selecionando objetos------------------------
+
+-Por M arca ou tag
+document.getElementsByTagName(tag)[indice]
+
+Exemplos do ex005:
+var p1 = window.document.getElementsByTagName('p')[0]
+
+Os colchetes servem para selecionar uma tag expecifica, no exemplo acima estamos celecionando o primeiro 
+
+-Por Id
+document.getElementsById('id')
+
+Esse comando nao precisa dos colchetes pois já vai estar 
+selecionado um tag expecifica.
+
+-Por Name
+document.getElementsByName('name')[indice]
+
+
+-Por Seletor
+
+document.querySelector('id')
+Essa tbm seleciona pelo id mas a sintaxe é igual a do CSS usando a '#' na frente do id.
+
+Exemplos do ex005:
+ var d = document.querySelector('#msg')
+
+
+---------------------------Eventos DOM---------------------------
+Eventos DOM - Tudo que pode acontecer com uma tag, nem todos os elementos ou tags são compatíveis com todos os eventos. 
+
+    Eventos de Mouse:
+
+Mouseenter - Mouse entrou dentro da tag 
+Mousemove - Ficar passando o mouse dentro da tag
+Mousedown - Clicar e segurar
+Mouseup - Soltar após ciclar e segurar
+click - Apertar e segurar rapidamente
+Mouseout - Mover o mouse para fora da tag
+
+Site com lista de todos os eventos DOM: 
+https://developer.mozilla.org/en-US/docs/Web/Events
+
+----------------------------Funções------------------------------
+
+Comandos que só vão ser executados dependendo de determinada ação
+
+function ação(parâmetro){
+    
+}

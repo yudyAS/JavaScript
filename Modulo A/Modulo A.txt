@@ -1,0 +1,30 @@
+História da Internet
+
+A internet surge em meio a guerra fria. Por medo do 
+satélite (SPUTNIK) lançado pela URSS, o presidente 
+militar dos EUA da época - Dwight D. Eisenhower 
+decretou a criação de uma agencia de pesquisa 
+tecnológica denominada DARPA. Uma das tecnologias
+que essa agência pesquisava tinha como função a 
+segurança dos centros militares, já que os centros 
+militares da época tinham apenas um computador grande
+que continham todas as informações daquele centro 
+militar e caso ele acabasse sendo destruido eles 
+acabariam perdendo todas as informações daquele local.
+
+A indeia da DARPA  era criar uma rede que protegese 
+esses dados, onde um centro se comunicaria com outro
+e caso um acabasse sendo bombardiado o outro teria 
+os dados, essa rede recebeu o nome de ARPANET, rede 
+essa que mais pra frente após seu crecimento acaba 
+mudando de nome para Internet.
+
+
+Surgimento da World Wide Web (WWW)
+
+A WWW foi criada em Genebra no ano de 1993 pelo 
+ingles Tim Berners-Lee com o intuito de deixar o
+conteúdo da internet mais interativo por meio de 
+ligações entre documentos, ele e sua equipe também
+foram os responsáveis pela criação da linguagem 
+HTML o protocólo HTTP 

@@ -1,0 +1,47 @@
+--------------------------Condições------------------------------
+
+    Condição Simples:
+
+if(condição){
+    
+}
+
+    Condição Conposta:
+
+if(condição){
+    
+}else{
+
+}
+
+    Condição Aninhada:
+
+if(condição){
+    
+}else if(condição){
+    
+}else{
+
+}
+
+    Condição Multipla
+Essa condição testa a expressão, dependendo do resultado ele realizara um comando.
+Para essa condição devemos colocar obrigatoriamente em cada 'case' um 'break' no final para fechamento do bloco.
+O default no final é opcional, ele serve para caso nenhum dos valores acima esteja de acordo com o resultado da expressão, ele realiza o comando que esteja no default.
+
+switch(expressão){
+    case valor 1:
+
+    break
+    case valor 2:
+
+    break
+    case valor 3:
+    
+    break
+    default:
+    
+    break
+}
+
+Pexels - banco de imagens gratuito.

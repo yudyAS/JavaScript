@@ -1,0 +1,34 @@
+                    Estruturas de Repetição
+
+unicode emoji list = site para pegar emojis
+No JS colocamos assim \u{cod_do_emoji}, e só funciona dentro das crases
+
+ -Com teste lógico no inicio
+while(condição){
+    comando
+}
+Enquanto condição for igual a true(verdadeiro) ele realiza o comando.
+
+----------------------------//---------------------------
+ 
+ - Com teste lógico no final
+do{
+    comando
+}while(condição)
+Nessa estrutura primeiro ele reealiza o comando depois verifica a condição. A expreção 'do' siguinifica 'faça'.
+
+----------------------------//---------------------------
+ 
+ - Com variável de controle
+
+for(inicio; teste; incremento){
+    comando
+}
+O for vai iniciar fazer um teste lógico, se for verdadeiro ele ira realizar o comando depois vai repitir, só que depois de realizar o camando ele vai ter um incremento antes de fazer o teste lógico de novo.
+
+Exemplo
+for(var c = 1; c <= 10; c++){
+    console.log(`Passo ${c}`)
+}
+
+Nesse exemplo temos a inicialização que se da com a criação da variável, depois o teste que seria enquanto a variável for menor/igual a 10 ele realiza o comando, e antes de refazer o teste ele ira realizar o incremento que seria somar 1 na variável, repetindo isso até a variável apresentar um valor maio que 10  

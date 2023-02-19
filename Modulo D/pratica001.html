@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body{
+            text-align: center;
+            color: white;
+            font: normal 1.3em arial;
+            background-image: linear-gradient(to  bottom, black, aqua);
+            background-attachment: fixed;
+            
+        }
+        #caixa{
+            margin-top: 150px;
+        }
+        #btn1{
+            font: normal 1em arial;
+            width: 100px;
+            height: 40px;
+            border-radius: 15px;
+            margin-top: 10px;
+            
+        }
+        #btn1:hover{
+            border-width: 3px;
+            border-color: aqua;
+            background-color: black;
+            color: white;
+        }
+        #pais{
+            font: normal 1.3em arial;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Verificando Nacionalidade</h1>
+    <hr>
+    <div id="caixa">
+        <p>Digite o nome do país que você mora</p>
+        <form>
+            <label for="Nacionalidade">
+                <input type="text" name="pais" id="pais">
+            </label><br>
+        
+            <input type="button" value="Verificar" onclick="clicar()" id="btn1">
+        
+            <div id="res"></div>
+        </form>
+    </div>
+
+    <script>
+        function clicar(){
+            var pais = document.getElementById('pais')
+            var res = document.querySelector('#res')
+            var p = String(pais.value)
+            res.innerHTML = `<p>Seu país é ${p}.</p>`
+
+            if(p == 'Brasil'){
+                res.innerHTML += '<p>Você é Brasileiro(a)</p>'
+            }else{
+                res.innerHTML += '<p>Você é Estrangeiro(a)</p>'
+            }  
+        }
+    </script>
+    
+</body>
+</html>

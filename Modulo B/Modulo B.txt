@@ -1,0 +1,124 @@
+------------------------Variáveis----------------------------    Para se criar variáveis em JS utilizamos a palavra 'var'
+espaço o nome da variável mais o sinal de igual '=' que nesse caso lemos como recebe, ai se for uma string colocamos aspas simples ou duplas nesse caso não tem diferença.
+    
+    Exemplo:
+    var nome = "yudy" - variável nome recebe a palavra yudy.
+
+    No caso de variáveis numéricas  não colocamos as aspas 
+    Exemplo:
+    var idade = 18 - variável idade recebe 18.
+
+            Condições para se criar uma variável 
+-Podem começar com letras, $ ou _
+
+-Não pode começar com numeros, mais podem ser utilizados no resto do nome da variável como 'var n1 = 1
+
+-Podem conter acentos e símbolos
+
+-Não podem conter espaços
+
+-Não podem ser palavras reservadas ou comando do próprio JS 
+como 'var var = 1
+-----------------------------//-------------------------------
+
+crtl + L = limpa os comando do terminal 
+
+-----------------------Tipo de dados--------------------------
+Inteiro = 5, 18 -12 - Não possui parte fracionária ou número depois da vírgula que nesse caso usamos ponto
+
+Float = 0.5, -15.9, 3.14 - Números reais com pontos flutuantes 
+
+Mas para o JS tanto o tipo inteiro quanto o float pertencem ao mesmo tipo de dado que seria o 'number'
+
+String = "Google" 'JavaScript' `Maria` - Caractéres. Uma string também pode ser um conjunto de números como um número de celular o CPF, pois apresentam ponto, traço 
+
+Boolean = true e false - Valor boleano 
+
+    Para se descubrir um tipo de dado podemos utilizar
+comando 'typeof' 
+
+    Exemplo:
+    var n = 200
+
+    typeof n - Fazendo assim no terminal ele ira mostrar o 
+tipo do dado, que nesse caso é number.
+-----------------------------//-------------------------------
+
+---------------------Operadores do JS-------------------------
+
++ = Soma 
+- = Subtração
+* = Multiplicação
+/ = Divisão Real 
+% = Divisão Inteira
+** = Potência
+
+--------------------Ordem de Precedência------------------------
+
+ Sempre nos calcúlos primeiro sera analizado os '()' depois '**', em seguida temos '*, /, %' esses três tem a mesma ordem de precedência, caso mais de desses esteja no mesmo calculo sera analizado da esquerda pra direita quem vem primeiro, e por fim '+, -'. 
+
+---------------------Auto atribuições----------------------------
+
+var n = 3                           Simplificado
+n = n + 4 Resultado = 7                n += 4
+n = n - 5 Resultado = 2                n -= 5
+n = n * 4 Resultado = 8                n *= 4
+n = n / 2 Resultado = 4                n /= 2
+n = n ** 2 Resultado = 16              n **= 2
+n = n % 5 Resultado = 1                n %= 5
+
+Versão simplificada só pode ser utilizada se a mesma variável estiver sendo utilizada para a conta.
+
+
+------------------------Incremento-------------------------------
+
+var x = 5
+
+x ++ Vai somar 1, então x passa a valer 6
+
+x -- Subtrai 1
+
+--------------------Operadores Relacionais-----------------------
+
+> - Maior
+< - Menor
+>= - Maior ou igual
+<= - Menor ou igual
+== - Igual
+!= - Diferente
+
+O operado de igual - "==" não verifica o tipo de dado apenas o valor, Exemplo 5 == '5' mesmo o segundo valor estando em string ele ira retornar true, para que ele verifique o tipo de dado utiliza-se um operador de identidade, com três igual - '===', esse sim vai verificar se os valores são identicos.
+
+----------------------Operadores Lógicos-------------------------
+
+! = Negação 'não'
+&& = Conjunção ou 'e'
+|| = Disjunção ou 'ou'
+
+Caso tenhamos em uma mesma expreção os três operadores a ordem 
+de execução é essa de cima primeiro o '! - não', depois o     '&& - e' e por fim o '|| - ou'.
+
+Quando temos em uma expreção com todos os operadaores ele ira 
+seguir essa ordem primeiro os aritméticos, depois relacionais e 
+por fim lógicos.
+    Exemplo:
+    var a = 5
+    var b = 8
+
+    a > b && b % 2 == 0 
+    Nesse caso ele primeiro realizara a conta de 'b % 2 == 0', 
+depois vai verificar se 'a > b' e por fim o '&&', ou seja, se a 
+divisão de 'b' por 2 terá um resto 0 e se 'a' é maior que 'b', as duas expreções sendo verdadeira ele retorna 'true' se não 
+'false'.
+
+----------------------Operadorer Ternário------------------------
+
+?
+:
+
+teste '?' true ':' false
+
+Esse operador ira testar se uma expreção é verdadeira ou falsa, caso seja verdadeira acontece uma coisa e se for falsa acontece outra coisa
+
+    Exemplo:
+    média >=7 ? "Aprovado" : "Reprovado"

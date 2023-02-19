@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font: normal 20px arial;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <script>
+        /*
+        Outros comandos:
+        n.length - quantos caracteres tem na variável
+        n.toUpperCase() - tudo para maiúsculo
+        n.toLowerCase() - tudo para minúsculo*/
+
+        var nome = prompt('Qual é o seu nome?')
+        //document.write() = escreva na tela 
+        document.write(`Olá <strong>${nome}</strong>! Seu nome tem ${nome.length} letras <br>`)
+        
+        document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}<br>`)
+        document.write(`Seu nome em minúsculas é ${nome.toLowerCase()}`)
+
+
+        /*Mudar as casas decimais de um number
+        n1 = 1545.5
+        n1.toFixed(2)
+        depois do comando vai ficar 1545.50
+        
+        n1.toFixed(2).replace('.', ',')
+        Troca o '.' por ',' ficando 1545,50
+
+        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) 
+        vai localizar a string em português, no style o currency é para mostrar em valor monetario que vai ser do brasil
+        Resultado:'R$ 1.545,50'
+        */
+
+
+       
+    </script>
+</body>
+</html>
